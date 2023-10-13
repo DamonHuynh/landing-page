@@ -4,20 +4,22 @@ body{
     font-family: Roboto;
     margin: 0;
     padding: 0;
+    
 }
 
 .top{
     background-color: #1F2937;
+    padding: 0px 200px;
 }
 
 .header{
     display: flex;
+    padding: 30px;
     justify-content: space-between;
-    padding: 20px;
     color: #F9FAF8;
     font-weight: 700;
     font-size: 24px;
-
+    
     
 }
 
@@ -31,10 +33,20 @@ ul{
 }
 
 .title{
+    display: flex;
     color: #F9FAF8;
     font-weight: 700;
     font-size: 48px;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.title-container{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    min-width: 450px;
+    padding: 30px;
 }
 
 .text{
@@ -43,3 +55,17 @@ ul{
     font-weight: 100;
 }
 
+.hero-img{
+    max-width: 450px;
+    height: auto;
+}
+
+button{
+    max-width: 100px;
+    min-height: 30px;
+    color: #F9FAF8;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: none;
+
+}
